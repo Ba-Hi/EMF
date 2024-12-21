@@ -3,119 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EMF - Association</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #004080;
-            color: white;
-            padding: 20px 10px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            background-color: #0066cc;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .contact-form {
-            margin-top: 20px;
-        }
-        .contact-form label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background-color: #0066cc;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .contact-form button:hover {
-            background-color: #004080;
-        }
-    </style>
+    <title>EMF Grenoble</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>EMF Grenoble - Ensemble pour un Monde Futur</h1>
-        <p>Votre association engagée pour un avenir meilleur</p>
+        <div class="container">
+            <h1>Étudiants Musulmans de France - Grenoble</h1>
+            <p>Servir, aider et défendre l'étudiant</p>
+        </div>
     </header>
-    <nav>
-        <a href="#about">À propos</a>
-        <a href="#objectives">Nos objectifs</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>À propos de nous</h2>
-        <p>EMF est une association dédiée à la solidarité, à l'entraide et au développement durable. Nous organisons des événements et des actions visant à aider les personnes dans le besoin et à promouvoir des solutions respectueuses de l'environnement.</p>
-    </section>
-    <section id="objectives">
-        <h2>Nos objectifs</h2>
-        <ul>
-            <li>Aider les personnes en situation de précarité.</li>
-            <li>Promouvoir des initiatives écologiques et durables.</li>
-            <li>Créer une communauté solidaire et engagée.</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <form class="contact-form">
-            <label for="name">Nom</label>
-            <input type="text" id="name" name="name" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Découvre notre dernier rapport d'enquête</h2>
+                <p>En tant qu'association étudiante, nous avons le rôle de donner la voix aux étudiants et de vous connecter avec des rapports sur les préoccupations étudiantes et les initiatives locales.</p>
+                <a href="#" class="btn">Lire le rapport</a>
+            </div>
+        </section>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+        <section class="actions">
+            <div class="container">
+                <h2>Nos actions</h2>
+                <div class="grid">
+                    <div class="action">
+                        <img src="representation.jpg" alt="Représentation Étudiante">
+                        <h3>Représentation Étudiante</h3>
+                    </div>
+                    <div class="action">
+                        <img src="culture.jpg" alt="Culture">
+                        <h3>Culture</h3>
+                    </div>
+                    <div class="action">
+                        <img src="social.jpg" alt="Social">
+                        <h3>Social</h3>
+                    </div>
+                    <div class="action">
+                        <img src="formation.jpg" alt="Formation">
+                        <h3>Formation</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <button type="submit">Envoyer</button>
-        </form>
-    </section>
+        <section class="contribution">
+            <div class="container">
+                <h2>Construisons ensemble</h2>
+                <div class="grid">
+                    <div class="contribution-item">
+                        <img src="benevole.jpg" alt="Devenir bénévole">
+                        <h3>Devenir bénévole</h3>
+                        <p>Participez activement à nos projets et faites une différence dans la vie des étudiants.</p>
+                        <a href="#" class="btn">Je rejoins</a>
+                    </div>
+                    <div class="contribution-item">
+                        <img src="adherent.jpg" alt="Devenir adhérent">
+                        <h3>Devenir adhérent</h3>
+                        <p>Soutenez nos initiatives en devenant membre officiel de l'association.</p>
+                        <a href="#" class="btn">J'adhère</a>
+                    </div>
+                    <div class="contribution-item">
+                        <img src="donateur.jpg" alt="Devenir donateur">
+                        <h3>Devenir donateur</h3>
+                        <p>Aidez-nous à financer des projets qui changent la vie des étudiants.</p>
+                        <a href="#" class="btn">Je donne</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="values">
+            <div class="container">
+                <h2>Nos valeurs</h2>
+                <div class="grid">
+                    <div class="value">
+                        <h3>Justice</h3>
+                        <p>Nous croyons que chaque personne mérite d'être traitée de manière équitable et respectueuse.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Créativité</h3>
+                        <p>Nous encourageons les idées nouvelles et les solutions innovantes.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Excellence</h3>
+                        <p>Nous aspirons à atteindre des standards élevés dans tout ce que nous entreprenons.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Solidarité</h3>
+                        <p>Nous valorisons l'entraide et le soutien mutuel dans toutes nos actions.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Bienveillance</h3>
+                        <p>Nous sommes à l'écoute des besoins de tous et cherchons à créer un environnement positif.</p>
+                    </div>
+                    <div class="value">
+                        <h3>Responsabilité</h3>
+                        <p>Nous agissons de manière éthique et transparente dans toutes nos décisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2024 EMF - Tous droits réservés.</p>
+        <div class="container">
+            <p>© 2024 Étudiants Musulmans de France - Grenoble. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
